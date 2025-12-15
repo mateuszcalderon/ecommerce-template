@@ -1,3 +1,35 @@
+:root {
+    --cream: #FFFFCC;
+    --ink-black: #212122;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cream);
+}
+
 header {
-    background-color: yellow;
+    align-items: center;
+    display: flex;
+    background-color: var(--ink-black);
+    justify-content: space-between;
+}
+
+nav {
+    font-weight: bold;
+}
+
+nav ul li a {
+    background-color: yellowgreen;
+}
+
+.dropdown-menu {
+    background-color: gray;
+    text-decoration: underline;
 }
