@@ -1,6 +1,10 @@
 :root {
+    --black: #000000;
+    --corn: #FBEC5D;
     --cream: #FFFFCC;
+    --golden-brown: #996515;
     --ink-black: #212122;
+    --white: #FFFFFF;
 }
 
 * {
@@ -16,9 +20,16 @@ body {
 
 header {
     align-items: center;
-    display: flex;
     background-color: var(--ink-black);
+    border-bottom: 1px solid var(--white);
+    display: flex;
     justify-content: space-between;
+    padding: 25px 10%;
+}
+
+.fa-brands.fa-forumbee {
+    color: var(--corn);
+    font-size: 45px;
 }
 
 nav {
@@ -26,10 +37,28 @@ nav {
 }
 
 nav ul li a {
-    background-color: yellowgreen;
+    color: var(--corn);
+}
+
+.ul-links {
+    list-style: none;
+}
+
+.ul-links li {
+    display: inline-block;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.ul-links a {
+    transition: 0.2s;
+}
+
+.ul-links a:hover {
+    color: var(--golden-brown);
 }
 
 .dropdown-menu {
-    background-color: gray;
+    color: var(--corn);
     text-decoration: underline;
 }
