@@ -32,6 +32,12 @@ header {
     font-size: 45px;
 }
 
+.fa-regular.fa-circle-user {
+    color: var(--corn);
+    cursor: pointer;
+    font-size: 20px;
+}
+
 nav {
     font-weight: bold;
 }
