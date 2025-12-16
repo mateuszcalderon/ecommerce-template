@@ -4,6 +4,7 @@
     --cream: #FFFFCC;
     --golden-brown: #996515;
     --ink-black: #212122;
+    --light-grey: #D3D3D3;
     --white: #FFFFFF;
 }
 
@@ -25,6 +26,24 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 25px 10%;
+}
+
+section {
+    background-color: var(--light-grey);
+    border-bottom: 1px solid var(--white);
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.div-promo-bar a {
+    color: var(--ink-black);
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.div-promo-bar a:hover {
+    color: var(--black);
 }
 
 .fa-brands.fa-forumbee {
