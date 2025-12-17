@@ -95,6 +95,12 @@ footer {
     margin-top: 1rem;
 }
 
+.payment {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
 .div-promo-bar a {
     color: var(--ink-black);
     font-weight: bold;
@@ -127,6 +133,11 @@ footer {
 
 .fa-brands.fa-instagram:hover, .fa-brands.fa-facebook:hover, .fa-brands.fa-x-twitter:hover {
     opacity: 0.8;
+}
+
+.fa-brands.fa-amazon-pay, .fa-brands.fa-apple-pay, .fa-brands.fa-google-pay {
+    color: var(--ink-black);
+    font-size: 25px;
 }
 
 nav {
