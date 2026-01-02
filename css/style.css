@@ -45,24 +45,20 @@ footer {
     width: 100%;
 }
 
+footer :is(a, h2, p) {
+    color: var(--ink-black);
+}
+
 .div-footer-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
 }
 
-.contact h2 {
-    color: var(--ink-black);
-}
-
 .sign-up {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-
-.sign-up h2, p {
-    color: var(--ink-black);
 }
 
 .input-group {
@@ -100,6 +96,14 @@ footer {
     flex-direction: column;
     gap: 1rem;
     margin-top: 1rem;
+}
+
+.easy-links a {
+    transition: 0.2s;
+}
+
+.easy-links a:hover {
+    opacity: 0.8;
 }
 
 .payment {
