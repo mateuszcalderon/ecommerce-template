@@ -73,12 +73,23 @@ header {
     text-decoration: underline;
 }
 
-section {
+/* Promo Bar Block: */
+.promo-bar {
     background-color: var(--light-grey);
     border-bottom: 1px solid var(--white);
     display: flex;
     justify-content: center;
     padding: 10px 0;
+}
+
+.promo-bar__link {
+    color: var(--ink-black);
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.promo-bar__link:hover {
+    color: var(--black);
 }
 
 footer {
@@ -153,15 +164,7 @@ footer :is(a, h2, p) {
     margin-top: 1rem;
 }
 
-.div-promo-bar a {
-    color: var(--ink-black);
-    font-weight: bold;
-    transition: 0.2s;
-}
 
-.div-promo-bar a:hover {
-    color: var(--black);
-}
 
 
 
