@@ -92,6 +92,7 @@ header {
     color: var(--black);
 }
 
+/* Footer Block: */
 footer {
     background-color: var(--sage-grey);
     width: 100%;
@@ -101,7 +102,7 @@ footer :is(a, h2, p) {
     color: var(--ink-black);
 }
 
-.div-footer-content {
+.footer__content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
@@ -137,11 +138,7 @@ footer :is(a, h2, p) {
     padding: 0 1rem;
 }
 
-.div-social-icons {
-    display: flex;
-    gap: 2rem;
-    margin-top: 1rem;
-}
+
 
 .easy-links {
     display: flex;
@@ -169,13 +166,19 @@ footer :is(a, h2, p) {
 
 
 
+/* Social Icons: */
+.social-icons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
 
-.fa-brands.fa-instagram, .fa-brands.fa-facebook, .fa-brands.fa-x-twitter {
+.social-icons__link {
     color: var(--ink-black);
     font-size: 20px;
 }
 
-.fa-brands.fa-instagram:hover, .fa-brands.fa-facebook:hover, .fa-brands.fa-x-twitter:hover {
+.social-icons__link:hover {
     opacity: 0.8;
 }
 
