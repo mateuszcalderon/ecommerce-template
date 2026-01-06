@@ -23,6 +23,7 @@ body {
     background-color: var(--cream);
 }
 
+/* Header Block: */
 header {
     align-items: center;
     background-color: var(--ink-black);
@@ -30,6 +31,21 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 25px 10%;
+}
+
+.header__logo .fa-forumbee {
+    color: var(--corn);
+    font-size: 45px;
+}
+
+.header__login .fa-circle-user {
+    color: var(--corn);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.header__login .fa-circle-user:hover {
+    opacity: 0.8;
 }
 
 section {
@@ -122,20 +138,9 @@ footer :is(a, h2, p) {
     color: var(--black);
 }
 
-.fa-brands.fa-forumbee {
-    color: var(--corn);
-    font-size: 45px;
-}
 
-.fa-regular.fa-circle-user {
-    color: var(--corn);
-    cursor: pointer;
-    font-size: 20px;
-}
 
-.fa-regular.fa-circle-user:hover {
-    opacity: 0.8;
-}
+
 
 .fa-brands.fa-instagram, .fa-brands.fa-facebook, .fa-brands.fa-x-twitter {
     color: var(--ink-black);
