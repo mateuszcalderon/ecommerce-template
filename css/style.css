@@ -140,20 +140,6 @@ footer :is(a, h2, p) {
 
 
 
-.easy-links {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.easy-links a {
-    transition: 0.2s;
-}
-
-.easy-links a:hover {
-    opacity: 0.8;
-}
 
 .payment {
     display: flex;
@@ -179,6 +165,23 @@ footer :is(a, h2, p) {
 }
 
 .social-icons__link:hover {
+    opacity: 0.8;
+}
+
+/* Help Links: */
+.help {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.help__link {
+    align-self: flex-start;
+    transition: 0.2s;
+}
+
+.help__link:hover {
     opacity: 0.8;
 }
 
